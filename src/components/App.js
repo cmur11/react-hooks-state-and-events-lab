@@ -5,7 +5,7 @@ console.log(itemData)
 
 function App() {
   const [items, setItems] = useState(itemData);
-  const [light, setDark] = useState(true)
+  const [light, setDark] = useState(false)
   
   // console.log(light)
 
